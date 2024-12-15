@@ -1,0 +1,22 @@
+cd C:\Users\CONNECT\Documents\NetBeansProjects\pharmacy_app; "JAVA_HOME=C:\\Program Files\\Java\\jdk-21" cmd /c "\"C:\\Program Files\\NetBeans-23\\netbeans\\java\\maven\\bin\\mvn.cmd\" -Dexec.vmArgs= \"-Dexec.args=${exec.vmArgs} -classpath %classpath ${exec.mainClass} ${exec.appArgs}\" -Dexec.appArgs= -Dexec.mainClass=com.mycompany.pharmacy_app.Pharmacy_app \"-Dexec.executable=C:\\Program Files\\Java\\jdk-21\\bin\\java.exe\" \"-Dmaven.ext.class.path=C:\\Program Files\\NetBeans-23\\netbeans\\java\\maven-nblib\\netbeans-eventspy.jar\" --no-transfer-progress process-classes org.codehaus.mojo:exec-maven-plugin:3.1.0:exec"
+Scanning for projects...
+
+---------------------< com.mycompany:pharmacy_app >---------------------
+Building pharmacy_app 1.0-SNAPSHOT
+  from pom.xml
+--------------------------------[ jar ]---------------------------------
+
+--- resources:3.3.1:resources (default-resources) @ pharmacy_app ---
+skip non existing resourceDirectory C:\Users\CONNECT\Documents\NetBeansProjects\pharmacy_app\src\main\resources
+
+--- compiler:3.13.0:compile (default-compile) @ pharmacy_app ---
+Nothing to compile - all classes are up to date.
+
+--- exec:3.1.0:exec (default-cli) @ pharmacy_app ---
+Hello World!
+------------------------------------------------------------------------
+BUILD SUCCESS
+------------------------------------------------------------------------
+Total time:  ١٥.٣٥٢ s
+Finished at: ٢٠٢٤-١٢-١٥T١٩:٠٣:٤٦+02:00
+------------------------------------------------------------------------
